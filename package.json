@@ -1,0 +1,21 @@
+{
+  "name": "sosolocal",
+  "version": "0.1.0",
+  "description": "Easy SSL proxy for local dev environments",
+  "type": "module",
+  "main": "src/main.js",
+  "bin": {
+    "sslocal": "./src/main.js"
+  },
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jamesford <jamie@stobbs.me>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "http-proxy": "^1.18.1",
+    "node-forge": "^1.3.1"
+  }
+}
